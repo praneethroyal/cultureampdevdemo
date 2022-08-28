@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Cultureamp-DEV-ADF"
+		},
+		"LS_for_azureSQLdatabase_connectionString": {
+			"value": ""
+		},
+		"LS_for_cultureamp_dev_KV_properties_typeProperties_baseUrl": {
+			"value": "https://Cultureamp-DEV-KV.vault.azure.net/"
+		},
+		"LS_for_cultureamp_dev_blob_properties_typeProperties_connectionString_secretName": {
+			"value": "sec-cultureamp-dev-connetionstring"
+		},
+		"LS_for_Blob_properties_typeProperties_connectionString_secretName": {
+			"value": "sec-cultureamp-dev-connetionstring"
+		},
+		"LS_for_output_dataset_properties_typeProperties_connectionString_secretName": {
+			"value": "sec-cultureamp-dev-connetionstring"
+		},
+		"LS_for_keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://Cultureamp-DEV-KV.vault.azure.net/"
+		},
+		"LS_for_blobstorage_properties_typeProperties_connectionString_secretName": {
+			"value": "sec-cultureamp-dev-connetionstring"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
