@@ -1,0 +1,10 @@
+{
+	"name": "LS_for_keyvault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://Cultureamp-DEV-KV.vault.azure.net/"
+		}
+	}
+}
