@@ -1,0 +1,19 @@
+{
+	"name": "Input_cultureamp_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_for_blobstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "finaloutput.xlsx",
+				"folderPath": "Input",
+				"container": "devcultureampcontainer"
+			}
+		}
+	}
+}
