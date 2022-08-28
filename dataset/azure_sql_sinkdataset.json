@@ -1,0 +1,25 @@
+{
+	"name": "azure_sql_sinkdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_for_azureSQLdatabase",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaname": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "budda"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

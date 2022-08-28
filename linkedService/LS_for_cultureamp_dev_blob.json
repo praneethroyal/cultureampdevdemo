@@ -1,0 +1,19 @@
+{
+	"name": "LS_for_cultureamp_dev_blob",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "this is a linked service for cultureamp development blob storage",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_for_cultureamp_dev_KV",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sec-cultureamp-dev-connetionstring"
+			}
+		}
+	}
+}

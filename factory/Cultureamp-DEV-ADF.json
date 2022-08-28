@@ -1,0 +1,9 @@
+{
+	"name": "Cultureamp-DEV-ADF",
+	"location": "australiasoutheast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ab9afb5f-430b-4870-a850-c1edf543da56",
+		"tenantId": "eee26b35-91b5-418e-9e68-c0233813b9a5"
+	}
+}

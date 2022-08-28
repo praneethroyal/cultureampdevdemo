@@ -1,0 +1,25 @@
+{
+	"name": "sink_data_streaming",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_for_azureSQLdatabase",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schemaname": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "datastreaming"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
